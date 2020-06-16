@@ -4,6 +4,7 @@
 * Please feel free to use the code as needed
 * Comments are welcome
 
+**Note:** Every piece of code is free in my git repo. Let's be good to each other.
 
 **Note**: `This is a work in progress`
 

@@ -10,3 +10,5 @@
 - Additionally I browse through various python exercises available freely on University sites, and keep adding to the list whenever I find something interesting. 
 - You can pick any problem, give it a shot and check the answer. 
 - I believe in constant learning. Therefore, please feel free to suggest any improvement to solved problems if you feel so.
+
+**Note**: Every piece of code is free in my git repo. Let's be good to each other.
