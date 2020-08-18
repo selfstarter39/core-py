@@ -26,8 +26,42 @@ def prblm_1_brute():
     
     
     print(sum(tot))
+    return None
     
+
+
+def btr_soln():
+    """
+    
+    Let's use formula for AP:
+    SumDivisibleBy(3) + SumDivisibleBy(5) - SumDivisibleBy(15)
+    
+    Multiple of 3: 3 6 9 12 ..999
+    Sum of these are: 3 + 6 + 9 + 12 + ..+ 999
+    = 3(1+2+3+4+..+333) = 3 * 333 * 334/2
+    
+    Similarly multiple of 5: 5 10 15 20 ..995
+    = 5(1 + 2 + 3 + 4 + ..+ 199) = 199 * 200 * 5/2
+        
+    Similarly multiple of 15: 15 30 45 ..990
+    = 15(1 + 2 + ...+ 66) = 15 * 66 * 67 /2
+
+    Returns
+    -------
+    None.
+
+    """
+    s3 = 3 * 333 * 334/2
+    s5 = 199 * 200 * 5/2
+    s15 = 15 * 66 * 67 /2
+    
+    print(s3 + s5 - s15)
+    
+    
+
     
 if __name__ == "__main__":
-    prblm_1_brute()
+    #prblm_1_brute()
+    btr_soln()
+    
     
