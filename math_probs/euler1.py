@@ -14,7 +14,7 @@ The sum of these multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 1000.
 """
 
-
+# Soln1:
 def prblm_1_brute():
     
     tot =set()
@@ -29,7 +29,7 @@ def prblm_1_brute():
     return None
     
 
-
+# Soln2:
 def btr_soln():
     """
     
